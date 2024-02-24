@@ -39,25 +39,29 @@ Stacks: SERN (MySQL + Express.js + React.js + Node.js)
 
 
 ## Installation
-Build docker image for MySQL.
+Build the docker image for the MySQL database.
 ```sh
 docker-compose up -d --build
 ```
-Install the dependencies and devDependencies and start the server.
+Open Terminal 1. Navigate to the server directory, install dependencies, and start the server.
 ```sh
 cd server
 npm install
 npm start
 ```
-Install the dependencies and devDependencies and start the client.
+Open Terminal 2. Navigate to the client directory, install dependencies, build the client-side application, and start the client.
 ```sh
 cd client
 npm install
+npm run build
 npm start
 ```
-
+View the app in your browser at:
+```sh
+localhost:8000
+```
 ---
-CMPT372 Web Development Ⅱ - Group Project (Developers: Risa K, Rachel S, Nathan L, Jason N)
+CMPT372 Web Development Ⅱ - Group Project (Developers: Risa K., Rachel S., Nathan L., Jason N.)
 <br>
 Repository does not contain original version control history as files were copied over from GitLab. 
 
